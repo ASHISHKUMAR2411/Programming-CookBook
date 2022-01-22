@@ -6,7 +6,7 @@ import base64
 from io import BytesIO #Converts data from Database into bytes
 
 # Flask
-from flask import Flask, render_template, request, flash, redirect, url_for, send_file # Converst bytes into a file for downloads
+from flask import Flask, render_template, request, flash, redirect, url_for, send_file # Convert bytes into a file for downloads
 
 # FLask SQLAlchemy, Database
 from flask_sqlalchemy import SQLAlchemy
